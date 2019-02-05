@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TOI</name>
+    </assembly>
+    <members>
+        <member name="M:TOI.lab1.k(System.Double[])">
+            <summary>
+            Вычисление значения k
+            </summary>
+            <param name="arr">Выборка</param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab1.x(System.Double[])">
+            <summary>
+            Вычисление выборочной средней x
+            </summary>
+            <param name="arr">Выборка</param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab1.R(System.Double[])">
+            <summary>
+            Вычисление разброса R
+            </summary>
+            <param name="arr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab1.RowInterval(System.Double[])">
+            <summary>
+            Вычисление интервального ряда
+            </summary>
+            <param name="arr">Выборка</param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab1.RowDiscret(System.Double[])">
+            <summary>
+            Вычисление дискретного ряда
+            </summary>
+            <param name="arr">Выборка</param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab1.RowCumulation(System.Double[])">
+            <summary>
+            Вычисление кумулятивного ряда
+            </summary>
+            <param name="arr">Выборка</param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab1.Moda(System.Double[])">
+            <summary>
+            Вычисление моды
+            </summary>
+            <param name="arr">Выборка</param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab1.Me(System.Double[])">
+            <summary>
+            Вычисление медианы Me
+            </summary>
+            <param name="arr">Выборка</param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab1.S(System.Double[])">
+            <summary>
+            Вычисление выборочной среднеквадратической S
+            </summary>
+            <param name="arr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab1.S2(System.Double[])">
+            <summary>
+            Вычисление выборочной дисперсии S^2
+            </summary>
+            <param name="arr">Выборка</param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab1.V(System.Double[])">
+            <summary>
+            Вычисление коэффициента вариации V
+            </summary>
+            <param name="arr">Выборка</param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab1.m3(System.Double[])">
+            <summary>
+            Вычисление m3
+            </summary>
+            <param name="arr">Выборка</param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab1.As(System.Double[])">
+            <summary>
+            Вычисление ассиметрии
+            </summary>
+            <param name="arr">Выборка</param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab1.Ex(System.Double[])">
+            <summary>
+            Эксцес
+            </summary>
+            <param name="arr">Выборка</param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab1.trustedInter(System.Double[])">
+            <summary>
+            Доверительные интервалы
+            </summary>
+            <param name="arr">Выборка</param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab2.Pirs(System.Double[],System.Double)">
+            <summary>
+            Метод подсчета Критерия Пирсона
+            </summary>
+            <param name="arr">Выборка</param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:TOI.lab2.Roman(System.Double[])" -->
+        <member name="M:TOI.lab2.Prib(System.Double[])">
+            <summary>
+            Метод подсчета Приближенного критерия
+            </summary>
+            <param name="arr">Выборка</param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab2.Yast(System.Double[])">
+            <summary>
+            Метод подсчета Критерия Ястремского
+            </summary>
+            <param name="arr">Выборка</param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab2.Kolm(System.Double[])">
+            <summary>
+            Метод подсчета Критерия Колмогорова
+            </summary>
+            <param name="arr">Выборка</param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab3.Sr(System.Double[])">
+            <summary>
+            Среднее значение x и у
+            </summary>
+            <param name="arr">Выборка</param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab3.r(System.Double[],System.Double[])">
+            <summary>
+            Коэффициент корреляции r
+            </summary>
+            <param name="arrX"></param>
+            <param name="arrY"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab3.rZnach(System.Double[],System.Double[],System.Double)">
+            <summary>
+            Значимость коэффициента корреляции
+            </summary>
+            <param name="arrX"></param>
+            <param name="arrY"></param>
+            <param name="l"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab3.rInt(System.Double[],System.Double[],System.Double)">
+            <summary>
+            Доверительный интервал для коэффициента корреляции
+            </summary>
+            <param name="arrX"></param>
+            <param name="arrY"></param>
+            <param name="l"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab3.S(System.Double[])">
+            <summary>
+            Значение S для гипотезы о значимости коэффициентов уравнения регрессии
+            </summary>
+            <param name="arr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab3.t(System.Double[],System.Double[])">
+            <summary>
+            Значение t коэффициента корреляции
+            </summary>
+            <param name="arrX"></param>
+            <param name="arrY"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab3.Emp(System.Double[],System.Double[])">
+            <summary>
+            Эмпирическое уравнение регрессии Y на X
+            </summary>
+            <param name="arrX"></param>
+            <param name="arrY"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab3.EmpInt(System.Double[],System.Double[],System.Double)">
+            <summary>
+            Доверительные интервалы для коэффициентов а и b уравнения регрессии
+            </summary>
+            <param name="arrX"></param>
+            <param name="arrY"></param>
+            <param name="l"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab3.EmpZnach(System.Double[],System.Double[],System.Double)">
+            <summary>
+            Значимость коэффициентов а и b уравнения регрессии
+            </summary>
+            <param name="arrX"></param>
+            <param name="arrY"></param>
+            <param name="l"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab3.R2(System.Double[],System.Double[])">
+            <summary>
+            Коэффициент детерминации R^2
+            </summary>
+            <param name="arrX"></param>
+            <param name="arrY"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab3.Adec(System.Double[],System.Double[],System.Double)">
+            <summary>
+            Адекватность уравнения регрессии Y на X
+            </summary>
+            <param name="arrX"></param>
+            <param name="arrY"></param>
+            <param name="l"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab3.TNorm(System.Double,System.Int32)">
+            <summary>
+            Распределение Стьюдента
+            </summary>
+            <param name="l"></param>
+            <param name="n"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab3.Fkrit(System.Double,System.Int32,System.Int32)">
+            <summary>
+            Фишер-Снедекор
+            </summary>
+            <param name="l"></param>
+            <param name="k"></param>
+            <param name="n"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab3.SrToch(System.Double[],System.Double[])">
+            <summary>
+            Средние точки
+            </summary>
+            <param name="arrX"></param>
+            <param name="arrY"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab3.Regr(System.Double[],System.Double[])">
+            <summary>
+            Коэффициенты уравнений регрессии
+            </summary>
+            <param name="arrX"></param>
+            <param name="arrY"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab3.Y(System.Double[],System.Double[],System.Int32)">
+            <summary>
+            Значения функций для кривых
+            </summary>
+            <param name="arrX"></param>
+            <param name="arrY"></param>
+            <param name="i"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab3.R_2(System.Double[],System.Double[],System.Int32)">
+            <summary>
+            Коэффициенты детерминации
+            </summary>
+            <param name="arrX"></param>
+            <param name="arrY"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab3.ik(System.Double[],System.Double[],System.Int32)">
+            <summary>
+            Индекс корреляции и корреляциооное отношение
+            </summary>
+            <param name="arrX"></param>
+            <param name="arrY"></param>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab3.Adec2(System.Double[],System.Double[],System.Double,System.Int32)">
+            <summary>
+            Адекватность модели 
+            </summary>
+            <param name="arrX"></param>
+            <param name="arrY"></param>
+            <param name="index"></param>
+            <param name="l"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab6.Ranking(System.Double[],System.Double[])">
+            <summary>
+            Метод подсчета Рангов
+            </summary>
+            <param name="arrX"></param>
+            <param name="arrY"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab6.pB(System.Double[],System.Double[])">
+            <summary>
+            Метод расчета коэффициента корреляции Спирмена
+            </summary>
+            <param name="arrX"></param>
+            <param name="arrY"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab6.tB(System.Double[],System.Double[])">
+            <summary>
+            Метод подсчета коэффициента корреляции Кендала
+            </summary>
+            <param name="arrX"></param>
+            <param name="arrY"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab6.pBZnach(System.Double[],System.Double[],System.Double)">
+            <summary>
+            Значимость коэффициента корреляции Спирмена
+            </summary>
+            <param name="arrX"></param>
+            <param name="arrY"></param>
+            <param name="l"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.lab6.tbZnach(System.Double[],System.Double[],System.Double)">
+            <summary>
+            Значимость коэффициента корреляции Кендала
+            </summary>
+            <param name="arrX"></param>
+            <param name="arrY"></param>
+            <param name="l"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.Lab5.Sr(System.Double[],System.Double[0:,0:])">
+            <summary>
+            Средние значения
+            </summary>
+            <param name="y"></param>
+            <param name="x"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.Lab5.r(System.Double[],System.Double[0:,0:])">
+            <summary>
+            Межфакторные парные коэффициенты
+            </summary>
+            <param name="y"></param>
+            <param name="x"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.Lab5.notXi(System.Double[],System.Double[0:,0:],System.Int32)">
+             <summary>
+            Исключение фактора Х по парному коэффициенту
+             </summary>
+             <param name="y"></param>
+             <param name="x"></param>
+             <param name="xi"></param>
+             <returns></returns>
+        </member>
+        <member name="M:TOI.Lab5.notX(System.Double[],System.Double[0:,0:])">
+            <summary>
+            Индексы исключенных факторов
+            </summary>
+            <param name="y"></param>
+            <param name="x"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.Lab5.ab(System.Double[],System.Double[0:,0:])">
+            <summary>
+            Нахождение коэффициентов уравнения регрессии
+            </summary>
+            <param name="y"></param>
+            <param name="x"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.Lab5.Y1(System.Double[],System.Double[0:,0:])">
+            <summary>
+            Значения уравнений Y(x)
+            </summary>
+            <param name="y"></param>
+            <param name="x"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.Lab5.R_(System.Double[],System.Double[0:,0:])">
+            <summary>
+            Коэффициент корреляции
+            </summary>
+            <param name="y"></param>
+            <param name="x"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.Lab5.R_Znach(System.Double[],System.Double[0:,0:],System.Double)">
+            <summary>
+            Значимость коэффициента корреляции
+            </summary>
+            <param name="y"></param>
+            <param name="x"></param>
+            <param name="l"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.Lab5.Adec(System.Double[],System.Double[0:,0:],System.Double)">
+            <summary>
+            Адекватность уравнения тремя способами
+            </summary>
+            <param name="y"></param>
+            <param name="x"></param>
+            <param name="l"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TOI.Lab5.K(System.Double[],System.Double[0:,0:])">
+            <summary>
+            Коэффициенты эластичности
+            </summary>
+            <param name="y"></param>
+            <param name="x"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

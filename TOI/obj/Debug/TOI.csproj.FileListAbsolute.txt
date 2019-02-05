@@ -1,0 +1,18 @@
+C:\Users\maxim\Documents\Visual Studio 2015\Projects\TOI\TOI\bin\Debug\TOI.dll
+C:\Users\maxim\Documents\Visual Studio 2015\Projects\TOI\TOI\bin\Debug\TOI.pdb
+C:\Users\maxim\Documents\Visual Studio 2015\Projects\TOI\TOI\obj\Debug\TOI.csprojResolveAssemblyReference.cache
+C:\Users\maxim\Documents\Visual Studio 2015\Projects\TOI\TOI\obj\Debug\TOI.dll
+C:\Users\maxim\Documents\Visual Studio 2015\Projects\TOI\TOI\obj\Debug\TOI.pdb
+C:\Users\maxim\documents\visual studio 2015\Projects\TOI\TOI\bin\Debug\MathNet.Numerics.dll
+C:\Users\maxim\documents\visual studio 2015\Projects\TOI\TOI\bin\Debug\MathNet.Numerics.xml
+C:\Users\maxim\documents\visual studio 2015\Projects\TOI\TOI\bin\Debug\TOI.XML
+C:\Users\atida\Desktop\Архив\TOI\TOI\bin\Debug\TOI.XML
+C:\Users\atida\Desktop\Архив\TOI\TOI\bin\Debug\TOI.dll
+C:\Users\atida\Desktop\Архив\TOI\TOI\bin\Debug\TOI.pdb
+C:\Users\atida\Desktop\Архив\TOI\TOI\bin\Debug\MathNet.Numerics.dll
+C:\Users\atida\Desktop\Архив\TOI\TOI\bin\Debug\MathNet.Numerics.xml
+C:\Users\atida\Desktop\Архив\TOI\TOI\obj\Debug\TOI.csprojAssemblyReference.cache
+C:\Users\atida\Desktop\Архив\TOI\TOI\obj\Debug\TOI.csproj.CoreCompileInputs.cache
+C:\Users\atida\Desktop\Архив\TOI\TOI\obj\Debug\TOI.csproj.CopyComplete
+C:\Users\atida\Desktop\Архив\TOI\TOI\obj\Debug\TOI.dll
+C:\Users\atida\Desktop\Архив\TOI\TOI\obj\Debug\TOI.pdb
